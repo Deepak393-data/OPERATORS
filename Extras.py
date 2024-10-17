@@ -24,4 +24,16 @@ Sample input and output 2:
 1
 17
 ...
+# Input
+no_balls = int(input())
+wides = int(input())
+byes = int(input())
+leg_byes = int(input())
+penalty = int(input())
+
+# Calculation
+total_extras = (no_balls + wides + byes + leg_byes + (penalty * 5))
+
+# Output
+print(total_extras)
 
