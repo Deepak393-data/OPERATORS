@@ -17,6 +17,7 @@ Sample Input and Output 2:
 65.0
 875.00
 Note: Bold highlighted is the output
+'''
 x=float(input())
 y=float(input())
 z=float(input())
